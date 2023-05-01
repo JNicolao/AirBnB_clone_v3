@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-
+'''
+    app for registering blueprint and starting flask
+'''
 from flask import Flask, jsonify
 from models import storage
 import os
